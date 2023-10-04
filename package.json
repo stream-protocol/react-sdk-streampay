@@ -1,0 +1,37 @@
+{
+    "name": "react-sdk-streampay",
+    "version": "1.0.0",
+    "description": "A hook to facilitate the use of the StreamPay SDK js",
+    "main": "lib/index.js",
+    "types": "lib",
+    "scripts": {
+        "build": "tsc -p .",
+        "prepare": "npm run build"
+    },
+    "keywords": [
+        "react",
+        "sdk",
+        "streampay",
+        "v1"
+    ],
+    "author": "Stream Protocol",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/stream-protocol/react-sdk-streampay/issues"
+    },
+    "homepage": "https://github.com/stream-protocol/react-sdk-streampay#readme",
+    "peerDependencies": {
+        "@types/react": "^18.2.24",
+        "@types/react-dom": "^18.2.8"
+    },
+    "devDependencies": {
+        "@types/react": "^18.2.24",
+        "@types/react-dom": "^18.2.8",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "typescript": "^5.2.2"
+    },
+    "dependencies": {
+        "ethers": "^6.7.1"
+    }
+}
